@@ -7,4 +7,4 @@ aulas.
 Criar uma codificação de mensagens onde a pessoa usuária
 deverá ser capaz de inserir uma mensagem a ser codificada
 ou decodificada, e receber o retorno da mensagem
-![image](https://user-images.githubusercontent.com/113525688/195704965-b4d1b9a8-f94d-476d-9baa-4759b74ece64.png)
+![image](https://user-images.githubusercontent.com/113525688/195705814-6dfc880a-3ab0-43b4-ba23-95adb896cc56.png)

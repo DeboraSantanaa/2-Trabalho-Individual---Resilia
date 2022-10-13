@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./script/index.js"></script>
+    <title>Criptografia</title>
+</head>
+<body>
+<section>
+    <header>>
+        <div class="container">
+            <h3>Mensagem Oculta</h3>
+            <label class="textopassos" > <strong> Digite seu Texto </strong></label>
+            <textarea type="text" id="texto" style="resize:none;" placeholder="Digite seu texto com letras minúsculas"></textarea>
+
+            <div>
+                <div class="escolha">
+                    <label class="textopassos"> <strong> Selecione </strong></label>
+                    <select name="" id="selecione">
+                        <option id="cifraCesar" value="cesar">Cifra de César</option>
+                        <option id="base64" value="b64">Base 64</option>
+                    </select>
+                    <label class="textopassos"> <strong>número de passos:</strong></label>
+                    <input type="number" id="passos" min="2" max="26" value="5"
+                        oninput="this.nextElementSibling.value = this.value" />
+                </div>
+
+                <div class="configRadio">
+                    <input type="radio" name="escolher" value="codificar" />
+                    <label id="cod"><strong>Codificar</strong></label>
+                    <input type="radio" name="escolher" value="decodificar" />
+                    <label><strong>Decodificar</strong></label>
+                </div>
+
+                <div class="criptografar">
+                    <button onclick="criptografia()">
+                        Converter
+                    </button>
+                </div>
+
+                <div>
+                    <textarea name="" id="resultado" class="caixa" cols="20" rows="5" style="resize:none;"
+                        readonly> </textarea>
+                </div>
+            </div>
+        </div>
+    </header>
+</body>
+
+
+
+<footer>
+  <p>Débora Santana © 2022</p>
+</footer>
+
+</html>

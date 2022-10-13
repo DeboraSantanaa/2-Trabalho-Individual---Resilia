@@ -1,0 +1,110 @@
+body {
+
+    background-size: cover;
+    font-family: monospace;
+    background-image: url(../img/fundo2.gif);
+    height: 80vh;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+
+
+}
+
+.container {
+    border: 15px double rgb(124, 9, 247);
+    font-size: 25px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.564);
+    border-radius: 50px;
+    box-shadow:  5px 5px 25px  rgb(243, 236, 248);
+}
+
+.configRadio {
+    margin-top: 55px;
+    width: 100%;
+    display: flex;
+     justify-content: center;
+  
+    
+}
+.criptografar{
+    width: 100%;
+    justify-content: center;
+    margin-top: 50px;
+    display: flex;
+}
+
+button {
+    background-image: linear-gradient(to right, rgb(255, 19, 216), rgb(220, 20, 193));
+    width: 30%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-bottom: 20px;
+      margin-top: 50px;
+}
+
+button:hover {
+    background-image: linear-gradient(to right, rgb(118, 2, 172), rgb(223, 142, 243));
+
+}
+
+textarea {
+    font-size: 25px;
+    width: 90%;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    border: 1px solid rgb(118, 2, 172);
+    border-radius: 15px;
+
+}
+
+#cod{
+    margin-right: 40px;
+}
+.escolha input {
+    font-size: 15px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+.textopassos {
+    font-size: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+h3{
+    text-align: center;
+    text-transform: uppercase;
+   
+}
+
+select{
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+footer p {
+    color: aliceblue;
+    text-align: center;
+    margin-top: 45px;
+    font-size: 25px;
+ }
+@media screen and (max-width: 1064px) {
+    .container {
+        width: 90%;
+        height: auto;
+        margin-left: 25px;
+    }
+
+}
